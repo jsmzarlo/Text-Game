@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-07-14T14:16:07</date>
+  <millis>1436897767899</millis>
+  <sequence>0</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added object: Barricade to Objectlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:07</date>
+  <millis>1436897767949</millis>
+  <sequence>1</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added object: Moore_Door to Objectlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:07</date>
+  <millis>1436897767993</millis>
+  <sequence>2</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Glaze_armor to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768016</millis>
+  <sequence>3</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Glaze to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768099</millis>
+  <sequence>4</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Gingerbread to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768121</millis>
+  <sequence>5</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Sprinkles to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768135</millis>
+  <sequence>6</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Cake to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768158</millis>
+  <sequence>7</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Skull to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768181</millis>
+  <sequence>8</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Spear to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768197</millis>
+  <sequence>9</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Leather_armor to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768238</millis>
+  <sequence>10</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Masterball to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768254</millis>
+  <sequence>11</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Eezo to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768268</millis>
+  <sequence>12</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Energy_sword to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768289</millis>
+  <sequence>13</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Green_mushroom to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768312</millis>
+  <sequence>14</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Pie to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768324</millis>
+  <sequence>15</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Great_Feast to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768343</millis>
+  <sequence>16</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Fire_of_Din to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768354</millis>
+  <sequence>17</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Dragonball_armor to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768403</millis>
+  <sequence>18</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Cannon to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768419</millis>
+  <sequence>19</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>added item: Ring to Itemlibrary</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768456</millis>
+  <sequence>20</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Loaded scenario from story2.xml</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768484</millis>
+  <sequence>21</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Character name: Unicorn</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768484</millis>
+  <sequence>22</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Character Max Health: 25</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768485</millis>
+  <sequence>23</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Character attack: 5</message>
+</record>
+<record>
+  <date>2015-07-14T14:16:08</date>
+  <millis>1436897768509</millis>
+  <sequence>24</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>It's the not-so-secret cow level.</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080026</millis>
+  <sequence>25</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>&gt; look</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080027</millis>
+  <sequence>26</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Parsing 'look'.</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080045</millis>
+  <sequence>27</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Looking around...</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080048</millis>
+  <sequence>28</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>It's the not-so-secret cow level.</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080056</millis>
+  <sequence>29</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>
+&lt;NAVIGATION&gt;</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080066</millis>
+  <sequence>30</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>To the north you see a barricade</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080070</millis>
+  <sequence>31</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>To the south you see a hellish place</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080073</millis>
+  <sequence>32</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>To the east you see Minecraft</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080093</millis>
+  <sequence>33</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>To the west you see World 1-1</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080097</millis>
+  <sequence>34</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>
+&lt;ITEMS IN ROOM&gt;
+Spear
+Cake</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080098</millis>
+  <sequence>35</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>
+&lt;CHARACTERS IN ROOM&gt;
+Unicorn</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080100</millis>
+  <sequence>36</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>
+&lt;OBJECTS IN ROOM&gt;
+</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:20</date>
+  <millis>1436898080100</millis>
+  <sequence>37</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message></message>
+</record>
+<record>
+  <date>2015-07-14T14:21:25</date>
+  <millis>1436898085464</millis>
+  <sequence>38</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>&gt; attack spear</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:25</date>
+  <millis>1436898085465</millis>
+  <sequence>39</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Parsing 'attack spear'.</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:25</date>
+  <millis>1436898085467</millis>
+  <sequence>40</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Parsing using ATTACK pattern.</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:25</date>
+  <millis>1436898085467</millis>
+  <sequence>41</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Parsed attack parameters, attacking target.</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:25</date>
+  <millis>1436898085468</millis>
+  <sequence>42</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Attacking enemy (spear).</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:25</date>
+  <millis>1436898085469</millis>
+  <sequence>43</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <exception>
+    <message>java.lang.Exception: No target 'spear' found in the room</message>
+    <frame>
+      <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.CombatSystem</class>
+      <method>getEnemyByName</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.CommandParser</class>
+      <method>attackEnemy</method>
+      <line>501</line>
+    </frame>
+    <frame>
+      <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.CommandParser</class>
+      <method>parseAttack</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.CommandParser</class>
+      <method>parse</method>
+      <line>85</line>
+    </frame>
+    <frame>
+      <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GUI.ButtonActionListener</class>
+      <method>actionPerformed</method>
+      <line>220</line>
+    </frame>
+    <frame>
+      <class>javax.swing.JTextField</class>
+      <method>fireActionPerformed</method>
+    </frame>
+    <frame>
+      <class>javax.swing.JTextField</class>
+      <method>postActionEvent</method>
+    </frame>
+    <frame>
+      <class>javax.swing.JTextField$NotifyAction</class>
+      <method>actionPerformed</method>
+    </frame>
+    <frame>
+      <class>javax.swing.SwingUtilities</class>
+      <method>notifyAction</method>
+    </frame>
+    <frame>
+      <class>javax.swing.JComponent</class>
+      <method>processKeyBinding</method>
+    </frame>
+    <frame>
+      <class>javax.swing.JComponent</class>
+      <method>processKeyBindings</method>
+    </frame>
+    <frame>
+      <class>javax.swing.JComponent</class>
+      <method>processKeyEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>processEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.KeyboardFocusManager</class>
+      <method>redispatchEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.DefaultKeyboardFocusManager</class>
+      <method>dispatchKeyEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.DefaultKeyboardFocusManager</class>
+      <method>preDispatchKeyEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.DefaultKeyboardFocusManager</class>
+      <method>typeAheadAssertions</method>
+    </frame>
+    <frame>
+      <class>java.awt.DefaultKeyboardFocusManager</class>
+      <method>dispatchEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>access$400</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$3</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$3</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$1</class>
+      <method>doIntersectionPrivilege</method>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$1</class>
+      <method>doIntersectionPrivilege</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$1</class>
+      <method>doIntersectionPrivilege</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForHierarchy</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>run</method>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2015-07-14T14:21:25</date>
+  <millis>1436898085471</millis>
+  <sequence>44</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>No target 'spear' found in the room</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:28</date>
+  <millis>1436898088257</millis>
+  <sequence>45</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>&gt; help</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:28</date>
+  <millis>1436898088258</millis>
+  <sequence>46</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Parsing 'help'.</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:28</date>
+  <millis>1436898088260</millis>
+  <sequence>47</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Welcome to the help dialog!</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:28</date>
+  <millis>1436898088263</millis>
+  <sequence>48</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Possible commands to research are 'use', 'move', 'take', 'attack', 'help', 'talk', 'look', and 'exit'. You may find each of these commands has an alias, but please only use those listed here when searching the help archives.</message>
+</record>
+<record>
+  <date>2015-07-14T14:21:28</date>
+  <millis>1436898088264</millis>
+  <sequence>49</sequence>
+  <logger>YouJustLostTheGame</logger>
+  <level>INFO</level>
+  <class>cs222.Fall2012.JH.YouJustLostTheGame.TeamGoku.GameLog</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Parsing using HELP pattern. Argument: ''.</message>
+</record>
+</log>

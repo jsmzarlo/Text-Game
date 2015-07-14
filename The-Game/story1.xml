@@ -1,0 +1,331 @@
+<gameMap>
+	<intro>
+		You wake up in an abandoned house.
+	</intro>
+	<defaults>
+		<item name="Sword" type="weapon">
+			<description>
+				<long>
+					A sharp sword, good for fighting just about anything.
+				</long>
+				<short>
+					a sword
+				</short>
+			</description>
+			<modifier status="attack" value="10"/>
+		</item>
+		<item name="Bread" type="food">
+			<description>
+				<long>
+					A loaf of bread, recently baked.
+				</long>
+				<short>
+					bread
+				</short>
+			</description>
+			<modifier status="health" value="10"/>
+		</item>
+		<item name="Helmet" type="armor">
+			<description>
+				<long>
+					An aluminum helmet, good for keeping aliens and monsters out of your brain.
+				</long>
+				<short>
+					a helmet
+				</short>
+			</description>
+			<modifier status="defense" value="10"/>
+		</item>
+		<item name="Green mushroom" type="food">
+			<description>
+				<long>
+					A green mushroom with white dots. You think you've seen it somewhere before.
+				</long>
+				<short>
+					a green mushroom
+				</short>
+			</description>
+			<modifier status="health" value="100"/>
+		</item>
+		<object name="portal">
+			<event>
+				<use>
+					You enter the portal and emerge into a new world. To be continued...
+				</use>
+			</event>
+			<description>
+				<long>
+					Who knows what could be on the other side?
+				</long>
+				<short>
+					a portal
+				</short>
+			</description>
+		</object>
+	</defaults>
+	<room id="room1" x="0" y="0">
+		<item call="Sword"/>
+		<item call="Bread"/>
+		<description>
+			<long>
+				You are in an abandoned house in the middle of a forest.
+			</long>
+			<short>
+				an abandoned house
+			</short>
+		</description>
+	</room>
+	<room id="room2" x="0" y="1">
+		<description>
+			<long>
+				You are in a forest full of oak trees.
+			</long>
+			<short>
+				a forest
+			</short>
+		</description>
+	</room>
+	<room id="room3" x="-1" y="1">
+		<item call="Helmet"/>
+		<item call="Bread"/>
+		<description>
+			<long>
+				You are in a house with logs burning in the fireplace but nobody is home.
+			</long>
+			<short>
+				a house
+			</short>
+		</description>
+	</room>
+	<room id="room4" x="-1" y="2">
+		<object call="portal"/>
+		<description>
+			<long>
+				You are in a room with a portal in the center.
+			</long>
+			<short>
+				a room
+			</short>
+		</description>
+	</room>
+	<room id="room5" x="-1" y="0">
+		<description>
+			<long>
+				You are in a clearing in the forest.
+			</long>
+			<short>
+				a clearing
+			</short>
+		</description>
+	</room>
+	<room id="room6" x="-2" y="0">
+		<description>
+			<long>
+				You are at the edge of a large pond.
+			</long>
+			<short>
+				a pond
+			</short>
+		</description>
+	</room>
+	<room id="room7" x="-2" y="-1">
+		<description>
+			<long>
+				You are on a dock at the edge of a pond.
+			</long>
+			<short>
+				a dock
+			</short>
+		</description>
+	</room>
+	<room id="room8" x="-2" y="-2">
+
+		<person name="Villager" enemy="false" health="25" attack="5" heal="false">
+			<event>
+				<talk>
+					I wouldn't go into that house to the west if I were you.
+				</talk>
+				<kill>
+					Tell my wife...I...I... I think she's a real bitch.
+				</kill>
+				<death>
+					I warned ya.
+				</death>
+			</event>
+			<description>
+				<long>
+					A generic villager in plain clothing.
+				</long>
+				<short>
+					a villager
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				You are in a small town.
+			</long>
+			<short>
+				a town
+			</short>
+		</description>
+	</room>
+	<room id="room9" x="-3" y="-2">
+		<person name="Slenderman" enemy="false" health="10000" attack="25" heal="true">
+			<event>
+				<talk>
+					Hello. I'm Slenderman. Pleased to make your acquaintance.
+				</talk>
+				<kill>
+					HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAX!!!!!!!!!!!!!!
+				</kill>
+				<death>
+					I'll just add that to the pile.
+				</death>
+			</event>
+			<description>
+				<long>
+					He's off duty right now. It would still be a bad idea to bother him, though.
+				</long>
+				<short>
+					Slenderman
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				You find yourself in the home of Slenderman.
+			</long>
+			<short>
+				a house
+			</short>
+		</description>
+	</room>
+	<room id="room10" x="-3" y="-3">
+		<event></event>
+		<item></item>
+		<person name="GLaDOS" enemy="false" health="50" attack="10" heal="false">
+			<event>
+				<talk>
+					How are you holding up? Because I'm a potato.
+				</talk>
+				<kill>
+					You'd better not replace me with Wheatley!
+				</kill>
+				<death>
+					This was a triumph.
+				</death>
+			</event>
+			<description>
+				<long>
+					It stands for Genetic Lifeform and Disk Operating System.
+				</long>
+				<short>
+					GLaDOS
+				</short>
+			</description>
+		</person>
+		<object call="portal"/>
+		<description>
+			<long>
+				You are in a room with a portal in the center.
+			</long>
+			<short>
+				a room
+			</short>
+		</description>
+	</room>
+	<room id="room11" x="0" y="-1">
+		<item call="Green mushroom"/>
+		<description>
+			<long>
+				You are in a damp cave with lit torches on the walls.
+			</long>
+			<short>
+				a cave
+			</short>
+		</description>
+	</room>
+	<room id="room12" x="0" y="-2">
+		<description>
+			<long>
+				You are in a deep cavern with lit torches on the walls.
+			</long>
+			<short>
+				a deep cavern
+			</short>
+		</description>
+	</room>
+	<room id="room13" x="1" y="-2">
+		<description>
+			<long>
+				You are at the edge of an underground lake which is emitting a mysterious light from the bottom.
+			</long>
+			<short>
+				an underground lake
+			</short>
+		</description>
+	</room>
+	<room id="room14" x="1" y="-3">
+		<object call="portal"/>
+		<description>
+			<long>
+				You are in a room with a portal in the center.
+			</long>
+			<short>
+				a room
+			</short>
+		</description>
+	</room>
+	<room id="room15" x="1" y="0">
+		<item call="Bread"/>
+		<person name="Farmer" enemy="false" health="25" attack="5" heal="false">
+			<event>
+				<talk>
+					Top o tha mornin' to ya.
+				</talk>
+				<kill>
+					Well shoot.
+				</kill>
+				<death>
+					This'll be good fert'lizer.
+				</death>
+			</event>
+			<description>
+				<long>
+					A plain farmer. He's a simple man.
+				</long>
+				<short>
+					a farmer
+				</short>
+			</description>
+		</person>
+		<object></object>
+		<description>
+			<long>
+				You are in a farmhouse at the edge of a field.
+			</long>
+			<short>
+				a farmhouse
+			</short>
+		</description>
+	</room>
+	<room id="room16" x="2" y="0">
+		<description>
+			<long>
+				You are in a cornfield.
+			</long>
+			<short>
+				a field
+			</short>
+		</description>
+	</room>
+	<room id="room17" x="3" y="0">
+		<object call="portal"/>
+		<description>
+			<long>
+				You are in a room with a portal in the center.
+			</long>
+		</description>
+	</room>
+</gameMap>

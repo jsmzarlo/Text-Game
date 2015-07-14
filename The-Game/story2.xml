@@ -1,0 +1,970 @@
+<gameMap>
+	<intro>
+		You find yourself in a magical land of unicorns and rainbows.
+	</intro>
+	<defaults>
+		<item name="Glaze_armor" type="armor">
+			<description>
+				<long>
+					+25% Deliciousness!
+				</long>
+				<short>
+					a glazed coating.
+				</short>
+			</description>
+			<modifier value="5" status="armor" />
+		</item>
+		<item name="Glaze" type="food">
+			<description>
+				<long>
+					Mmmm! Tasty, but not very filling.
+				</long>
+				<short>
+					a flake of glazed coating.
+				</short>
+			</description>
+			<modifier value="10" status="food" />
+		</item>
+		<item name="Gingerbread" type="key">
+			<description>
+				<long>
+					A delicious looking Gingerbread woman. Its looks as if it would fit
+					something.
+				</long>
+				<short>
+					A Gingerbread... woman?
+				</short>
+			</description>
+			<modifier value="1234" status="key" />
+		</item>
+		<item name="Sprinkles" type="food">
+			<description>
+				<long>
+					OMG its a giant sprinkle. You drool at the thought of how good it will
+					taste.
+				</long>
+				<short>
+					a giant sprinkle
+				</short>
+			</description>
+			<modifier value="15" status="health" />
+		</item>
+		<item name="Cake" type="food">
+			<description>
+				<long>
+					Why eat it? It's clearly a lie.
+				</long>
+				<short>
+					a cake
+				</short>
+			</description>
+			<modifier status="health" value="0" />
+		</item>
+		<item name="Skull" type="weapon">
+			<description>
+				<long>
+					It's good for bashing other skulls with.
+				</long>
+				<short>
+					a skull
+				</short>
+			</description>
+			<modifier status="attack" value="4" />
+		</item>
+		<item name="Spear" type="weapon">
+			<description>
+				<long>
+					Good for making shish kabobs.
+				</long>
+				<short>
+					a spear
+				</short>
+			</description>
+			<modifier status="attack" value="10" />
+		</item>
+		<item name="Leather_armor" type="armor">
+			<description>
+				<long>
+					You realize this is cow skin, right?
+				</long>
+				<short>
+					some leather armor
+				</short>
+			</description>
+			<modifier status="armor" value="10" />
+		</item>
+		<item name="Masterball" type="weapon">
+			<description>
+				<long>
+					It is defective, so anything it is used on cannot get out.
+				</long>
+				<short>
+					a masterball
+				</short>
+			</description>
+			<modifier status="attack" value="8998" />
+		</item>
+		<item name="Eezo" type="food">
+			<description>
+				<long>
+					Element zero. Highly toxic.
+				</long>
+				<short>
+					Element zero
+				</short>
+			</description>
+			<modifier status="health" value="-100" />
+		</item>
+		<item name="Energy_sword" type="weapon">
+			<description>
+				<long>
+					An energy sword. Instakills nearly everything.
+				</long>
+				<short>
+					an energy sword
+				</short>
+			</description>
+			<modifier status="attack" value="50" />
+		</item>
+		<item name="Green_mushroom" type="food">
+			<description>
+				<long>
+					A green mushroom with white spots. You think you've seen it
+					somewhere before.
+				</long>
+				<short>
+					a green mushroom
+				</short>
+			</description>
+			<modifier status="health" value="100" />
+		</item>
+		<item name="Pie" type="food">
+			<description>
+				<long>
+					A delicious pumpkin pie.
+				</long>
+				<short>
+					a pie
+				</short>
+			</description>
+			<modifier status="health" value="25" />
+		</item>
+		<item name="Great_Feast" type="food">
+			<description>
+				<long>
+					A feast fit for a king. Specifically a Lich King.
+				</long>
+				<short>
+					a feast
+				</short>
+			</description>
+			<modifier status="health" value="50" />
+		</item>
+		<item name="Fire_of_Din" type="weapon">
+			<description>
+				<long>
+					Din's fire. A gift from a goddess.
+				</long>
+				<short>
+					Din's fire
+				</short>
+			</description>
+			<modifier status="attack" value="25" />
+		</item>
+		<item name="Dragonball_armor" type="armor">
+			<description>
+				<long>
+					Nearly indestructible, this armor provides the best protection possible.
+				</long>
+				<short>
+					Dragonball armor
+				</short>
+			</description>
+			<modifier status="armor" value="30" />
+		</item>
+		<item name="Cannon" type="key">
+			<description>
+				<long>
+					Good for blowing up stuff(hint hint).
+				</long>
+				<short>
+					a cannon
+				</short>
+			</description>
+			<modifier value="32" status="key" />
+		</item>
+		<item name="Ring" type="key">
+			<description>
+				<long>
+					The one ring.....TO RULE THEM ALL! Or unlock a door or whatever.
+				</long>
+				<short>
+					a ring
+				</short>
+			</description>
+			<modifier value="1" status="key" />
+		</item>
+		<object name="Barricade" direction="north" locked="true" id="32">
+			<description>
+				<long>
+					You're not getting past this without a siege weapon.
+				</long>
+				<short>
+					a barricade
+				</short>
+			</description>
+		</object>
+		<object name="Moore_Door" direction="west" locked="true" id="1">
+			<description>
+				<long>
+					One does not simply walk into Mordor.
+				</long>
+				<short>
+					Moore door
+				</short>
+			</description>
+		</object>
+	</defaults>
+	<room id="room1" x="0" y="0">
+		<item call="Spear" />
+		<item call="Cake" />
+		<person name="Unicorn" enemy="false" health="25" attack="5"
+			heal="false">
+			<item call="Pie" />
+			<item call="Ring" />
+			<event>
+				<talk>
+					Yeah, I'm a talking unicorn. So what?
+				</talk>
+				<kill>
+					Why would you kill a unicorn?
+				</kill>
+				<death>
+					Unicorns aren't defenseless, you know.
+				</death>
+			</event>
+			<description>
+				<long>
+					Look, it's a unicorn! It's MAGICAL!
+				</long>
+				<short>
+					a unicorn
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				It's the not-so-secret cow level.
+			</long>
+			<short>
+				a magical land
+			</short>
+		</description>
+	</room>
+	<room id="room2" x="0" y="-1">
+		<item call="Skull" />
+		<description>
+			<long>
+				You are in a hellish place where fires burn hotter than the sun.
+			</long>
+			<short>
+				a hellish place
+			</short>
+		</description>
+	</room>
+	<room id="room3" x="0" y="1">
+		<object call="Barricade" />
+		<item call="Cannon" />
+		<description>
+			<long>
+				You are at a barricade.
+			</long>
+			<short>
+				a barricade
+			</short>
+		</description>
+	</room>
+	<room id="room4" x="0" y="2">
+		<person name="Grue" enemy="true" health="25" attack="10" heal="false">
+			<item call="Leather_armor" />
+			<event>
+				<talk>
+					The grue does not want to listen to your crap. He wants you to die.
+				</talk>
+				<kill>
+					The grue is now dead.
+				</kill>
+				<death>
+					What did you expect when you started fighting a grue?
+				</death>
+			</event>
+			<description>
+				<long>
+					It's a juvenile grue, so you still have a chance.
+				</long>
+				<short>
+					a grue
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				You are in a field. It is dark. You are likely to be attacked by a
+				grue.
+			</long>
+			<short>
+				a dark field
+			</short>
+		</description>
+	</room>
+	<room id="room5" x="0" y="-2">
+		<person name="Space_core" enemy="false" health="500" attack="3"
+			heal="true">
+			<event>
+				<talk>
+					Dad, I'm in space. I'm proud of you son. Dad, are you space? Yes. Now
+					we are a family again.
+				</talk>
+				<kill>
+					SPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACE!
+				</kill>
+				<death>
+					Space. Trial. Put the system on trial. In space. Space system on trial.
+					GUILTY! Of not being in space! Go to space jail!
+				</death>
+			</event>
+			<description>
+				<long>
+					Nobody likes space more than him.
+				</long>
+				<short>
+					the Space core
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				You are in space. Somehow you can still breathe, though.
+			</long>
+			<short>
+				space
+			</short>
+		</description>
+	</room>
+	<room id="room6" x="1" y="2">
+		<description>
+			<long>
+				You slog into the darkness toward the eerie blue glow, leaving the
+				safety of the dark field behind. Your path proves treacherous
+				causing you to trip and slip on hidden roots and bogs. Pulling
+				yourself clear of the bog water and darkness you find yourself on a
+				small island of earth. At the center of the island lies a eerie blue
+				flame. Tongues of fire lick out from the central torch every so
+				often burning back any encroaching growths from a strange frosting
+				to the west. The purple frosting has strangled the land. You see by
+				the eerie light of the blue flame that no vegetation has survived
+				amongst the frosting... Nor has any animal as you spot the rotting
+				corpse of a rabbit half decomposed and entangled by the tendrils of
+				the frosting.
+			</long>
+			<short>
+				a faint blue light gleaming in the distance. Its gives you an uneasy
+				feeing in your nether regions.
+			</short>
+		</description>
+	</room>
+	<room id="room7" x="2" y="2">
+		<description>
+			<long>
+				You continue on into the frosting, watching the scenery as shifts into
+				a desolate, flat landscape of purple frosting. The frosting snags
+				and tugs aggressively at your every step trying to bring you down
+				inside it, but the frosting is too weak and frail here to be little
+				more than an annoyance to your movement.
+			</long>
+			<short>
+				the start of the frosting... you hope you are not its next meal.
+			</short>
+		</description>
+	</room>
+	<room id="room8" x="3" y="2">
+		<description>
+			<long>
+				An empty room
+			</long>
+			<short>
+				An empty room
+			</short>
+		</description>
+	</room>
+	<room id="room9" x="2" y="1">
+		<person name="Corrupted_Frosting" enemy="true" health="25"
+			attack="8" heal="true">
+			<item call="Sprinkles" />
+			<event>
+				<talk>
+					ROARRRRR!!
+				</talk>
+				<kill>
+					The corrupted frosting explodes into a bloody mess.
+				</kill>
+				<death>
+					The corrupted frosting rips you apart and feeds upon your flesh.
+				</death>
+			</event>
+			<description>
+				<long>
+					Frosting corrupted by an unknown power.
+				</long>
+				<short>
+					corrupted frosting
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				This area feels different than before. It takes you a moment before you
+				realize that the frosting is thicker here, shooting out at odd
+				angles as it grows up the rugged terrain... It almost as if the
+				frosting is mimicking plant life.
+			</long>
+			<short>
+				plant life...wait...there doesn't seem to be any plant life that can grow
+				in the frosting.
+			</short>
+		</description>
+	</room>
+	<room id="room10" x="3" y="1">
+		<person name="Doughnut_hole1" enemy="true" health="25" attack="1"
+			heal="false">
+			<event>
+				<talk>
+					ROARRRRR!!...
+				</talk>
+				<kill>
+					Doughnut hole 1 explodes into a delicious mess.
+				</kill>
+				<death>
+					The doughnut hole horde rips you apart and feeds upon your flesh.
+				</death>
+			</event>
+			<description>
+				<long>
+					A bloodthirsty doughnut hole intent on making you its prey.
+				</long>
+				<short>
+					a glazed doughnut hole
+				</short>
+			</description>
+		</person>
+		<person name="Doughnut_hole2" enemy="true" health="25" attack="1"
+			heal="false">
+			<event>
+				<talk>
+					ROARRRRR!!
+				</talk>
+				<kill>
+					Doughnut hole 2 explodes into a bloody mess.
+				</kill>
+				<death>
+					The doughnut hole horde rips you apart and feeds upon your flesh.
+				</death>
+			</event>
+			<description>
+				<long>
+					A bloodthirsty doughnut hole intent on making you its prey.
+				</long>
+				<short>
+					a glazed doughnut hole
+				</short>
+			</description>
+		</person>
+		<person name="Doughnut_hole3" enemy="true" health="25" attack="1"
+			heal="false">
+			<event>
+				<talk>
+					ROARRRRR!!
+				</talk>
+				<kill>
+					Doughnut hole 3 explodes into a bloody mess.
+				</kill>
+				<death>
+					The doughnut hole horde rips you apart and feeds upon your flesh.
+				</death>
+			</event>
+			<description>
+				<long>
+					A bloodthirsty doughnut hole intent on making you its prey.
+				</long>
+				<short>
+					a glazed doughnut hole
+				</short>
+			</description>
+		</person>
+		<person name="Doughnut_hole4" enemy="true" health="25" attack="1"
+			heal="false">
+			<item call="Glaze" />
+			<event>
+				<talk>
+					ROARRRRR!!
+				</talk>
+				<kill>
+					Doughnut hole 4 explodes into a bloody mess.
+				</kill>
+				<death>
+					The doughnut hole horde rips you apart and feeds upon your flesh.
+				</death>
+			</event>
+			<description>
+				<long>
+					A bloodthirsty doughnut hole intent on making you its prey.
+				</long>
+				<short>
+					a glazed doughnut hole
+				</short>
+			</description>
+		</person>
+		<person name="Doughnut_hole5" enemy="true" health="25" attack="1"
+			heal="true">
+			<item call="Glaze" />
+			<event>
+				<talk>
+					ROARRRRR!!
+				</talk>
+				<kill>
+					Doughnut hole 5 explodes into a bloody mess.
+				</kill>
+				<death>
+					The doughnut hole horde rips you apart and feeds upon your flesh.
+				</death>
+			</event>
+			<description>
+				<long>
+					A bloodthirsty doughnut hole intent on making you its prey.
+				</long>
+				<short>
+					a glazed doughnut hole
+				</short>
+			</description>
+		</person>
+		<person name="Doughnut_hole6" enemy="true" health="25" attack="1"
+			heal="true">
+			<item call="Glaze" />
+			<event>
+				<talk>
+					ROARRRRR!!
+				</talk>
+				<kill>
+					Doughnut hole 6 explodes into a bloody mess.
+				</kill>
+				<death>
+					The doughnut hole horde rips you apart and feeds upon your flesh.
+				</death>
+			</event>
+			<description>
+				<long>
+					A bloodthirsty doughnut hole intent on making you its prey.
+				</long>
+				<short>
+					a glazed doughnut hole
+				</short>
+			</description>
+		</person>
+		<person name="Doughnut_hole7" enemy="true" health="25" attack="1"
+			heal="true">
+			<item call="Glaze" />
+			<event>
+				<talk>
+					ROARRRRR!!
+				</talk>
+				<kill>
+					Doughnut hole 7 explodes into a bloody mess.
+				</kill>
+				<death>
+					The doughnut hole horde rips you apart and feeds upon your flesh.
+				</death>
+			</event>
+			<description>
+				<long>
+					A bloodthirsty doughnut hole intent on making you its prey.
+				</long>
+				<short>
+					a glazed doughnut hole
+				</short>
+			</description>
+		</person>
+		<person name="Doughnut_hole8" enemy="true" health="25" attack="1"
+			heal="true">
+			<item call="Glaze" />
+			<event>
+				<talk>
+					ROARRRRR!!
+				</talk>
+				<kill>
+					Doughnut hole 8 explodes into a bloody mess.
+				</kill>
+				<death>
+					The doughnut hole horde rips you apart and feeds upon your flesh.
+				</death>
+			</event>
+			<description>
+				<long>
+					A bloodthirsty doughnut hole intent on making you its prey.
+				</long>
+				<short>
+					a glazed doughnut hole
+				</short>
+			</description>
+		</person>
+		<person name="Doughnut_hole9" enemy="true" health="25" attack="1"
+			heal="true">
+			<item call="Glaze" />
+			<event>
+				<talk>
+					ROARRRRR!!
+				</talk>
+				<kill>
+					Doughnut hole 9 explodes into a bloody mess.
+				</kill>
+				<death>
+					The doughnut hole horde rips you apart and feeds upon your flesh.
+				</death>
+			</event>
+			<description>
+				<long>
+					A bloodthirsty doughnut hole intent on making you its prey.
+				</long>
+				<short>
+					a glazed doughnut hole
+				</short>
+			</description>
+		</person>
+		<person name="Doughnut_hole10" enemy="true" health="25" attack="1"
+			heal="true">
+			<item call="Glaze_armor" />
+			<event>
+				<talk>
+					ROARRRRR!!
+				</talk>
+				<kill>
+					Doughnut hole 10 explodes into a bloody mess.
+				</kill>
+				<death>
+					The doughnut hole horde rips you apart and feeds upon your flesh.
+				</death>
+			</event>
+			<description>
+				<long>
+					A bloodthirsty doughnut hole intent on making you its prey.
+				</long>
+				<short>
+					a glazed doughnut hole
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				A horde fight
+			</long>
+			<short>
+				several shapes moving and rustling ahead. Several sets of hungry eyes peer
+				at you from the darkness.
+			</short>
+		</description>
+	</room>
+	<room id="room11" x="3" y="0">
+		<person name="Muffin_man" enemy="true" health="70" attack="15"
+			heal="true">
+			<item call="Gingerbread" />
+			<description>
+				<long>
+					The source of the corrupted frosting. A giant baker with a rolling
+					pin... and he looks pissed.
+				</long>
+				<short>
+					A menacing looking baker holding a rolling pin.
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				Mini boss
+			</long>
+			<short>
+				mini boss
+			</short>
+		</description>
+	</room>
+	<room id="room12" x="-1" y="-1">
+		<item call="Great_Feast" />
+		<person name="Arthas" enemy="true" health="200" attack="25"
+			heal="false">
+			<event>
+				<talk>
+					I am the Lich King, ruler of all the Scourge. Have at you!
+				</talk>
+				<kill>
+					You cannot defeat me! The Scourge will prevail!
+				</kill>
+				<death>
+					A noble effort, but foolhardy nonetheless.
+				</death>
+			</event>
+			<description>
+				<long>
+					Arthas Menethil, also known as the Lich King.
+				</long>
+				<short>
+					Arthas
+				</short>
+			</description>
+		</person>
+		<object call="Moore_Door" />
+		<description>
+			<long>
+				A frozen wasteland with a large citadel at the end.
+			</long>
+			<short>
+				Icecrown
+			</short>
+		</description>
+	</room>
+	<room id="room13" x="-2" y="-1">
+		<person name="Hobbit" enemy="false" health="25" attack="5"
+			heal="false">
+			<event>
+				<talk>
+					I'm here to destroy the ring, but I don't know the way in.
+				</talk>
+				<kill>
+					I was doing it for the good of Middle Earth!
+				</kill>
+				<death>
+					I am sorry, but I will stop at nothing to destroy this ring.
+				</death>
+			</event>
+			<description>
+				<long>
+					A hobbit. He is short and has very hairy feet.
+				</long>
+				<short>
+					a hobbit
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				A large volcano in the middle of a wasteland.
+			</long>
+			<short>
+				Mordor
+			</short>
+		</description>
+	</room>
+	<room id="room14" x="1" y="-2">
+		<person name="Martian" enemy="false" health="30" attack="15"
+			heal="false">
+			<event>
+				<talk>
+					Greetings, Earth life form! I look forward to examining your internal
+					structures.
+				</talk>
+				<kill>
+					This is only a minor setback. I will respawn and be back for revenge.
+				</kill>
+				<death>
+					How unfortunate. A live specimen would have been much more valuable.
+				</death>
+			</event>
+			<description>
+				<long>
+					A martian. He may not look intimidating, but he has a laser gun.
+				</long>
+				<short>
+					a martian
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				The red planet. So many people thought there was no life here, but they
+				have been proven wrong.
+			</long>
+			<short>
+				Mars
+			</short>
+		</description>
+	</room>
+	<room id="room15" x="3" y="-1">
+		<item call="Fire_of_Din" />
+		<person name="7_Sages" enemy="false" health="100" attack="10"
+			heal="false">
+			<event>
+				<talk>
+					Din has bestowed upon you the gift of fire. Use it wisely.
+				</talk>
+				<kill>
+					You have doomed this world, stranger.
+				</kill>
+				<death>
+					It seems you were not yet ready to control the power of fire.
+				</death>
+			</event>
+			<description>
+				<long>
+					The seven sages speak as one. They represent Light, Forest, Fire,
+					Water, Shadow, Spirit, and Time.
+				</long>
+				<short>
+					the seven sages
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				A giant castle filled with many townspeople. It is said the Seven
+				Sages reside here.
+			</long>
+			<short>
+				Hyrule Castle Town
+			</short>
+		</description>
+	</room>
+	<room id="room16" x="4" y="-1">
+		<item call="Dragonball_armor" />
+		<description>
+			<long>
+				A planet thought to have been destroyed long ago, Planet Vegeta is
+				the home of the Saiyan race.
+			</long>
+			<short>
+				Planet Vegeta
+			</short>
+		</description>
+	</room>
+	<room id="room17" x="-1" y="2">
+		<item call="Masterball" />
+		<person name="Arceus" enemy="true" health="800" attack="50"
+			heal="true">
+			<event>
+				<talk>
+					Arceus says nothing, only stares at you with the rage of a vengeful god.
+				</talk>
+				<kill>
+					As Arceus dies, you feel its powers dissipate into the air.
+				</kill>
+				<death>
+					Arceus stands tall, proud of its victory over you.
+				</death>
+			</event>
+			<description>
+				<long>
+					It is a level 100 Arceus. You should probably run.
+				</long>
+				<short>
+					Arceus
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				You are at the ruins of Indigo Plateau, destroyed long ago by Arceus.
+				Arceus itself descends from the heavens to fight you.
+			</long>
+			<short>
+				Indigo Plateau
+			</short>
+		</description>
+	</room>
+	<room id="room18" x="1" y="0">
+		<person name="Creeper" enemy="true" health="10" attack="50"
+			heal="false">
+			<event>
+				<talk>
+					Thatssss a pretty ssssword you have there.
+				</talk>
+				<kill>
+					The creeper nearly explodes, but you kill it at the last second.
+				</kill>
+				<death>
+					The creeper explodes with a loud boom, killing you instantly.
+				</death>
+			</event>
+			<description>
+				<long>
+					Rule #1 of Minecraft: Stay away from exploding shrubs.
+				</long>
+				<short>
+					a creeper
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				You find yourself in a strange land made of large blocks with terrible
+				resolution.
+			</long>
+			<short>
+				Minecraft
+			</short>
+		</description>
+	</room>
+	<room id="room19" x="2" y="-2">
+		<item call="Eezo" />
+		<description>
+			<long>
+				You find yourself at a mass relay. You don't know where it will send
+				you.
+			</long>
+			<short>
+				a mass relay
+			</short>
+		</description>
+	</room>
+	<room id="room20" x="2" y="-1">
+		<item call="Energy_sword" />
+		<person name="Master_Chief" enemy="false" health="500" attack="50"
+			heal="true">
+			<event>
+				<talk>
+					Move along, citizen.
+				</talk>
+				<kill>
+					Spartans never die. They're just missing in action.
+				</kill>
+				<death>
+					Time for some tea. *teabags your body*
+				</death>
+			</event>
+			<description>
+				<long>
+					John 117. The greatest warrior in existence.
+				</long>
+				<short>
+					Master Chief
+				</short>
+			</description>
+		</person>
+		<description>
+			<long>
+				Halo. A superweapon capable of destroying all sentient life in the
+				galaxy.
+			</long>
+			<short>
+				Halo
+			</short>
+		</description>
+	</room>
+	<room id="room21" x="-1" y="0">
+		<item call="Green_mushroom" />
+		<description>
+			<long>
+				You find yourself in a familiar place full of pipes and blocks
+				and enemies walking back and forth.
+			</long>
+			<short>
+				World 1-1
+			</short>
+		</description>
+	</room>
+</gameMap>
